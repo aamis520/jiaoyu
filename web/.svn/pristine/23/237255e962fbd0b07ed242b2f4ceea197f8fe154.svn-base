@@ -1,0 +1,15 @@
+html, body, ul, li, dl, dt, dd {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+}
+
+i, em, b {
+    font-style: normal;
+    font-weight: normal;
+}
+

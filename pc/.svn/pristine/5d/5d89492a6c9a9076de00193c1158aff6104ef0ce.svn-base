@@ -1,0 +1,87 @@
+
+html,
+body,
+ul,
+li,
+dl,
+dt,
+dd,
+tr,
+th,
+td,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+article,
+details,
+footer,
+header,
+menu,
+nav,
+section,
+summary {
+    margin: 0;
+    padding: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    background: @bgc url("@{image}bg_1.png") no-repeat top left;
+    color: @fc;
+}
+input, img, textarea {
+    border: 0;
+    outline: 0;
+    background: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+i,
+em,
+b {
+    font-style: normal;
+    font-weight: normal;
+}

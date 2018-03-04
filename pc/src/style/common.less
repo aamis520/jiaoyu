@@ -1,0 +1,79 @@
+.hf {
+    zoom: 1;
+}
+
+.hf:before,
+.hf:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+::placeholder {
+    color: #999;
+}
+
+.mod-w {
+    padding: 0 30px;
+    border-radius: 4px;
+    background-color: #fff;
+    margin-bottom: @cs;
+    height: 48px;
+    line-height: 48px;
+    position: relative;
+}
+
+.mod-t {
+    border-bottom: 1px solid #eee;
+    height: 40px;
+    line-height: 40px;
+    color: status;
+}
+
+.shadow {
+    box-shadow: 0 0 10px #ddd;
+}
+
+.common-page-container {
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.common-w {
+    //付延兵，右边公共内容部分
+    position: relative;
+    background-color: #fff;
+    padding: 20px 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.common-tab-w {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 60px;
+}
+
+.common-tab-item {
+    border: 1px solid status;
+    color: status;
+    border-radius: 30px;
+    margin: 0 10px;
+    padding: 5px 20px;
+    cursor: pointer;
+    &.checked {
+        background-color: status;
+        color: #fff;
+    }
+}
+

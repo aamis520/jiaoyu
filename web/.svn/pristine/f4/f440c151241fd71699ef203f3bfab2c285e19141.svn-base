@@ -1,0 +1,24 @@
+{
+    "errorcode": 200,
+    "messages": {
+        "data": {
+            "head_school_id": "59b102c6a10cd7096c0cc693",
+            "head_school_code": "hs001",
+            "head_school_name": "长沙小银星星",
+            "short_name": "小银星",
+            "structure_type": "H-R-A-B",
+            "status": "enable",
+            "start_datetime": 1504772806391,
+            "end_datetime": 2135924806391,
+            "region_number": 5,
+            "area_number": 10,
+            "school_number": 20,
+            "region_list": [
+            ],
+            "created_dy": "1",
+            "create_datetime": 1504772806391,
+            "updated_by": null,
+            "update_datetime": null
+        }
+    }
+}

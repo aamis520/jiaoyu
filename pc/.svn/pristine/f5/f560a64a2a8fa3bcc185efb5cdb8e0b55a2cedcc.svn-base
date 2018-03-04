@@ -1,0 +1,17 @@
+
+// 基础设置
+@import "var";
+@import "base";
+// 通用样式
+@import "common";
+@import "common-layout";
+@import "common-button";
+@import "common-icon";
+@import "common-iconOnly";
+// 通用组件
+@import "component-default";
+@import "components/check-box";
+//
+@import "detail-system-head";
+@import "detail-permissions";
+@import "detail-permissions-pop";

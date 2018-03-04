@@ -1,0 +1,83 @@
+@item-height: 40px;
+
+.permission-list {
+    padding: 0 20px;
+    .item {
+        position: relative;
+        display: flex;
+        border-top: 1px dotted #ddd;
+        min-height: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        align-items: flex-start;
+    }
+    .name, .btn, .result {
+        height: @item-height;
+        line-height: @item-height;
+    }
+    .name {
+        flex-shrink: 0;
+        color: #333;
+        width: 150px;
+        padding-left: 10px;
+    }
+    .result {
+        margin-right: 10px;
+    }
+    .content {
+        position: relative;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-grow: 1;
+    }
+    .list-before {
+        display: flex;
+        align-items: center;
+        flex-shrink: 0;
+    }
+    .btn {
+        cursor: pointer;
+    }
+    .list-after {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 70px;
+        height: @item-height;
+        padding: 0 10px;
+    }
+    .btn-setting, .btn-key, .btn-close {
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+        background: no-repeat center center;
+    }
+    .btn-setting {
+        // background-image: url('@{image}common/edit.png');
+        &.checked {
+            // background-image: url('@{image}common/ok.png');
+        }
+    }
+    .btn-key {
+        // background-image: url('@{image}common/key.png');
+    }
+    .btn-close {
+        // background-image: url('@{image}common/delete.png');
+    }
+}
+
+.permission-depart-list {
+    display: flex;
+    flex-flow: row wrap;
+    .permission-depart-item {
+        width: 100px;
+        overflow: hidden;
+        margin-right: 10px;
+        padding-left: 25px;
+        height: @item-height;
+        line-height: @item-height;
+        // background: url('@{image}common/unchecked.png') no-repeat left center;
+        cursor: pointer;
+    }
+}

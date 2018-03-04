@@ -1,0 +1,11 @@
+.static-src-logo {
+    border: 3px dashed green;
+    background: url('../../src/images/logo.png');
+    height: 100px;
+}
+
+.static-static-logo {
+    border: 3px dashed green;
+    background: url('../images/logo.png');
+    height: 100px;
+}

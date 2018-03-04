@@ -1,0 +1,65 @@
+.hf:before, .hf:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.hf {
+    zoom: 1;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+::placeholder {
+    color: #999;
+}
+
+.mod-w {
+    padding: 10px 30px;
+    border-radius: 4px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.mod-t {
+    border-bottom: 1px solid #eee;
+    height: 40px;
+    line-height: 40px;
+    color: @mc;
+}
+
+.shadow {
+    box-shadow: 0 0 10px #ddd;
+}
+
+.common-page-container {
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.common-tab-w {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 60px;
+}
+
+.common-tab-item {
+    border: 1px solid @mc;
+    color: @mc;
+    border-radius: 30px;
+    margin: 0 10px;
+    padding: 5px 20px;
+    cursor: pointer;
+    &.checked {
+        background-color: @mc;
+        color: #fff;
+    }
+}

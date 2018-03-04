@@ -1,0 +1,278 @@
+{
+    "head_school_id": "1",
+    "teaching_course_list": [
+        {
+            "name": "1对1课程",
+            "is_check": false,
+            "head_school_id": "1",
+            "user_id": "1",
+            "create_time": 1504952790,
+            "is_delete": false
+        },
+        {
+            "name": "班级课程",
+            "is_check": true,
+            "head_school_id": "1",
+            "user_id": "1",
+            "create_time": 1504952790,
+            "is_delete": false
+        },
+        {
+            "name": "1对N课程",
+            "is_check": true,
+            "head_school_id": "1",
+            "user_id": "1",
+            "create_time": 1504952790,
+            "is_delete": false
+        }
+    ],
+    "register_first_course_list": [
+        {
+            "name": "1对1",
+            "is_check": false,
+            "head_school_id": "1",
+            "user_id": "1",
+            "create_time": 1504952790,
+            "is_delete": false
+        },
+        {
+            "name": "班级",
+            "is_check": true,
+            "head_school_id": "1",
+            "user_id": "1",
+            "create_time": 1504952790,
+            "is_delete": false
+        },
+        {
+            "name": "1对N",
+            "is_check": true,
+            "head_school_id": "1",
+            "user_id": "1",
+            "create_time": 1504952790,
+            "is_delete": false
+        }
+    ],
+    "is_register_class_choose_manager": false,
+    "student_grade_list": [
+        {
+            "name": "小一",
+            "is_check": false,
+            "head_school_id": "1",
+            "user_id": "1",
+            "create_time": 1504952790,
+            "is_delete": false
+        },
+        {
+            "name": "小二",
+            "is_check": true,
+            "head_school_id": "1",
+            "user_id": "1",
+            "create_time": 1504952790,
+            "is_delete": false
+        },
+        {
+            "name": "小三",
+            "is_check": true,
+            "head_school_id": "1",
+            "user_id": "1",
+            "create_time": 1504952790,
+            "is_delete": false
+        }
+    ],
+    "grade_age_list": [
+        {
+            "name": "仅显示年级",
+            "is_check": false,
+            "head_school_id": "1",
+            "user_id": "1",
+            "create_time": 1504952790,
+            "is_delete": false
+        },
+        {
+            "name": "仅显示年龄，并精确到岁数",
+            "is_check": true,
+            "head_school_id": "1",
+            "user_id": "1",
+            "create_time": 1504952790,
+            "is_delete": false
+        }
+    ],
+    "teacher_level_list": [
+        {
+            "name": "一级教师",
+            "is_check": true,
+            "head_school_id": "1",
+            "user_id": "1",
+            "create_time": 1504952790,
+            "is_delete": false
+        },
+        {
+            "name": "特级教师",
+            "is_check": true,
+            "head_school_id": "1",
+            "user_id": "1",
+            "create_time": 1504952790,
+            "is_delete": false
+        }
+    ],
+    "resource_library": {
+        "roll_back_to_branch_time": 3,
+        "roll_back_to_head_time": 5,
+        "head_school_id": "1",
+        "user_id": "1",
+        "create_time": 1504952790,
+        "is_delete": false
+    },
+    "customer_setting_list": [
+        {
+            "name": "人工客服",
+            "is_check": false,
+            "head_school_id": "1",
+            "user_id": "1",
+            "create_time": 1504952790,
+            "is_delete": false
+        },
+        {
+            "name": "机器人客服",
+            "is_check": true,
+            "head_school_id": "1",
+            "user_id": "1",
+            "create_time": 1504952790,
+            "is_delete": false
+        }
+    ],
+    "attendance_list": [
+        {
+            "name": "开通考勤",
+            "is_check": false,
+            "head_school_id": "1",
+            "user_id": "1",
+            "create_time": 1504952790,
+            "is_delete": false
+        },
+        {
+            "name": "不开通考勤",
+            "is_check": true,
+            "head_school_id": "1",
+            "user_id": "1",
+            "create_time": 1504952790,
+            "is_delete": false
+        }
+    ],
+    "registration": {
+        "content": "测试！测试！测试！测试！测试！测试！测试！测试！",
+        "head_school_id": "1",
+        "user_id": "1",
+        "create_time": 1504952790,
+        "is_delete": false
+    },
+    "refound_notice": {
+        "content": "你们都是小青蛙，呱呱呱呱呱！",
+        "head_school_id": "1",
+        "user_id": "1",
+        "create_time": 1504952790,
+        "is_delete": false
+    },
+    "app_parents_circle_list": [
+        {
+            "name": "孩子就读校区教师圈",
+            "is_check": false,
+            "head_school_id": "1",
+            "user_id": "1",
+            "create_time": 1504952790,
+            "is_delete": false
+        },
+        {
+            "name": "孩子就读班级教师圈",
+            "is_check": true,
+            "head_school_id": "1",
+            "user_id": "1",
+            "create_time": 1504952790,
+            "is_delete": false
+        }
+    ],
+    "app_teachers_circle": [
+        {
+            "name": "全部校区教师圈",
+            "is_check": false,
+            "head_school_id": "1",
+            "user_id": "1",
+            "create_time": 1504952790,
+            "is_delete": false
+        },
+        {
+            "name": "本校教师圈",
+            "is_check": true,
+            "head_school_id": "1",
+            "user_id": "1",
+            "create_time": 1504952790,
+            "is_delete": false
+        }
+    ],
+    "app_branch_school_person_circle_list": [
+        {
+            "name": "自己校区教师圈",
+            "is_check": false,
+            "head_school_id": "1",
+            "user_id": "1",
+            "create_time": 1504952790,
+            "is_delete": false
+        },
+        {
+            "name": "所有教师圈",
+            "is_check": true,
+            "head_school_id": "1",
+            "user_id": "1",
+            "create_time": 1504952790,
+            "is_delete": false
+        }
+    ],
+    "app_head_school_person_circle_list": [
+        {
+            "name": "自己校区教师圈",
+            "is_check": false,
+            "head_school_id": "1",
+            "user_id": "1",
+            "create_time": 1504952790,
+            "is_delete": false
+        },
+        {
+            "name": "所有教师圈",
+            "is_check": true,
+            "head_school_id": "1",
+            "user_id": "1",
+            "create_time": 1504952790,
+            "is_delete": false
+        }
+    ],
+    "other_fee_list": [
+        {
+            "name": "建档",
+            "money": 50,
+            "head_school_id": "1",
+            "user_id": "1",
+            "create_time": 1504952790,
+            "is_delete": false
+        },
+        {
+            "name": "服装",
+            "money": 500,
+            "head_school_id": "1",
+            "user_id": "1",
+            "create_time": 1504952790,
+            "is_delete": false
+        }
+    ],
+    "school_info": {
+        "logo_url": "https://www.baidu.com",
+        "watch_or_word": "你瞅啥？",
+        "head_school_id": "1",
+        "user_id": "1",
+        "create_time": 1504952790,
+        "is_delete": false
+    },
+    "user_id": "1",
+    "create_time": 1504952790,
+    "is_delete": false,
+    "version": "v1"
+}

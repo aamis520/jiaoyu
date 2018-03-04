@@ -1,0 +1,114 @@
+@width : 1008px;
+@color : #31C27C;
+.huo {
+    width: @width;
+    margin-bottom: 14px;
+}
+
+.class-A {
+    position: relative;
+    header {
+        width: @width;
+        height: 48px;
+        background: #fff;
+        padding: 0 30px;
+        box-sizing: border-box;
+        border-radius: 6px;
+        margin-bottom: 12px;
+        color: @color;
+        line-height: 50px;
+        display: flex;
+        justify-content: space-between;
+        span {
+            &:last-child {
+                display: block;
+                width: 30px;
+                height: 30px;
+                margin-top: 8px;
+                cursor: pointer;
+                background: url(../../../../images/system-campus/bookadd.png) no-repeat right center;
+            }
+        }
+    }
+    b {
+        &.add-img {
+            display: block;
+            width: 94px;
+            height: 94px;
+            position: absolute;
+            bottom: -20px;
+            right: 10px;
+            cursor: pointer;
+            background: url(../../../../images/system-campus/youhuiAdd.png) no-repeat center center;
+        }
+        &:hover {
+            background: url(../../../../images/system-campus/addbutton_normal.png) no-repeat center center;
+        }
+    }
+    .body {
+        width: @width;
+        height: 234px;
+        background: #fff;
+        border-radius: 6px;
+        overflow: hidden;
+        div {
+            margin-top: 20px;
+            width: 100%;
+            height: 160px;
+            background: url(../../../../images/system-head/nopage.png) no-repeat center center;
+        }
+        p {
+            text-align: center;
+            color: #999;
+            font-size: 16px;
+        }
+    }
+    .list { 
+        .list-ul {
+            width: @width;
+            background: #fff;
+            border-radius: 6px;
+            margin-bottom: 14px;
+            box-sizing: border-box;
+            padding: 0 30px;
+            h1 {
+                height: 60px;
+                line-height: 60px;
+                color: @color;
+                position: relative;
+                .xiu_img {
+                    position: absolute;
+                    right: 0;
+                    top: 24px;
+                    cursor: pointer;
+                }
+            }
+            li {
+                border-top: 1px dashed #DBDBDB;
+                box-sizing: border-box;
+                padding-bottom: 40px;
+                display: flex;
+                h2 {
+                    margin-top: 24px;
+                    color: @color;
+                    width: 177px;
+                }
+                section {
+                    width: 870px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    span {
+                        margin-top: 24px;
+                        display: block;
+                        color: #999;
+                        padding-right: 30px;
+                        margin-right: 10px;
+                        &.length_class {
+                            background: url(../../../../images/system-head/daohang.png) no-repeat right center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

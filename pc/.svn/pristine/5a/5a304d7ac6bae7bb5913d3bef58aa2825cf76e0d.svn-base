@@ -1,0 +1,19 @@
+.sk-check-box {
+    @image: "../../images/";
+    display: flex;
+    height: 30px;
+    .checked {
+        background: url("@{image}green.png") no-repeat right center;
+    }
+    &.sk-radio .checked {
+        background: url("@{image}red.png") no-repeat right center;
+    }
+}
+
+.sk-check-item {
+    height: 30px;
+    line-height: 30px;
+    padding-right: 20px;
+    margin-right: 25px;
+    cursor: pointer;
+}

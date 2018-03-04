@@ -1,0 +1,76 @@
+{
+    "data": [
+        {
+            "deptId": "59b3ca8df4d27e1268636115",
+            "headSchoolId": null,
+            "campusType": "1",
+            "deptName": "咨询部二级部门1",
+            "parentDeptId": "59b3bcf0f4d27e1aa83fd86b",
+            "hasSubDept": 2,
+            "createUser": "111",
+            "createTime": "2017-09-09 19:03:41",
+            "subDepts": [
+            ]
+        },
+        {
+            "deptId": "59b3ca8df4d27e1268636115",
+            "headSchoolId": null,
+            "campusType": "1",
+            "deptName": "咨询部二级部门1",
+            "parentDeptId": "59b3bcf0f4d27e1aa83fd86b",
+            "hasSubDept": 2,
+            "createUser": "111",
+            "createTime": "2017-09-09 19:03:41",
+            "subDepts": [
+            ]
+        },
+        {
+            "deptId": "59b3ca8df4d27e1268636115",
+            "headSchoolId": null,
+            "campusType": "1",
+            "deptName": "咨询部二级部门1",
+            "parentDeptId": "59b3bcf0f4d27e1aa83fd86b",
+            "hasSubDept": 2,
+            "createUser": "111",
+            "createTime": "2017-09-09 19:03:41",
+            "subDepts": [
+            ]
+        },
+        {
+            "deptId": "59b3ca8df4d27e1268636115",
+            "headSchoolId": null,
+            "campusType": "1",
+            "deptName": "咨询部二级部门1",
+            "parentDeptId": "59b3bcf0f4d27e1aa83fd86b",
+            "hasSubDept": 2,
+            "createUser": "111",
+            "createTime": "2017-09-09 19:03:41",
+            "subDepts": [
+            ]
+        },
+        {
+            "deptId": "59b3ca8df4d27e1268636115",
+            "headSchoolId": null,
+            "campusType": "1",
+            "deptName": "咨询部二级部门1",
+            "parentDeptId": "59b3bcf0f4d27e1aa83fd86b",
+            "hasSubDept": 2,
+            "createUser": "111",
+            "createTime": "2017-09-09 19:03:41",
+            "subDepts": [
+            ]
+        },
+        {
+            "deptId": "59b3ca8df4d27e1268636115",
+            "headSchoolId": null,
+            "campusType": "1",
+            "deptName": "咨询部二级部门1",
+            "parentDeptId": "59b3bcf0f4d27e1aa83fd86b",
+            "hasSubDept": 2,
+            "createUser": "111",
+            "createTime": "2017-09-09 19:03:41",
+            "subDepts": [
+            ]
+        }
+    ]
+}
